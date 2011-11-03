@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.foomo.org" xsi:schemaLocation="http://www.foomo.org http://www.foomo.org/foomo/modules/Foomo.Flash/schemas/project.xsd">
+	<id>org.foomo.rpc.broadcast</id>
+	<group>org.foomo</group>
+	<version>0.2.0-alpha</version>
+	<type>Library Project</type>
+	<name>RPC Broadcasting</name>
+	<description>The Foomo RPC Service broadcasting Library.</description>
+	<exclude>true</exclude>
+	<dependencies>
+		<id>org.foomo.core</id>
+		<id>org.foomo.rpc</id>
+	</dependencies>
+</config>
